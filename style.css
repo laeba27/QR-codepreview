@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #83c6e3b4;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+.bluebox{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: 335px;
+  padding: 1rem;
+  background-color: aliceblue;
+  border-radius: 15px;
+}
+.text{
+    padding: 1rem;
+    text-align: center;
+    font-size: medium;
+    font-style: inherit;
+}
+.text2{
+    margin-left: 1.5rem;
+    width: 250px;
+    text-align: center;
+    font-size: small;
+    color: grey;
+}
